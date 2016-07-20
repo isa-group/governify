@@ -144,3 +144,36 @@ footer.page-footer {
     }
 }
 
+img.funding-logo{
+    max-width: 100%;
+    height: auto;
+}
+
+.funding-logo-container{
+    height: 6rem;
+    margin-right:2rem;
+    display: inline-block;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+@media (min-width: 933px)  {
+    .funding-logo-container{
+        max-width: 40%;
+    }
+}
+
+
+@media (max-width: 932px)  {
+    .funding-logo-container{
+        max-width: 22%;
+    }
+}
+
+@media (max-width: 600px)  {
+    .funding-logo-container{
+        max-width: 60%;
+    }
+}
